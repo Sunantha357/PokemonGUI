@@ -1,8 +1,8 @@
 package pokemongame;
 
 public class PokemonSkill{
-	private String name;
-	private float damage;
+	private final String name;
+	private final float damage;
 
 	public PokemonSkill(String name, float damage){
 		this.name = name;
